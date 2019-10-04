@@ -44,7 +44,6 @@ type GithubPullRequestPayload struct {
 		ClosedAt          time.Time `json:"closed_at"`
 		MergedAt          time.Time `json:"merged_at"`
 		MergeCommitSha    string    `json:"merge_commit_sha"`
-		RequestedTeams    []string  `json:"requested_teams"`
 		Labels            []string  `json:"labels"`
 		CommitsURL        string    `json:"commits_url"`
 		ReviewCommentsURL string    `json:"review_comments_url"`
