@@ -35,7 +35,6 @@ type GithubIssueCommentPayload struct {
 			Type              string `json:"type"`
 			SiteAdmin         bool   `json:"site_admin"`
 		} `json:"user"`
-		Labels            []interface{} `json:"labels"`
 		State             string        `json:"state"`
 		Locked            bool          `json:"locked"`
 		Assignee          interface{}   `json:"assignee"`
